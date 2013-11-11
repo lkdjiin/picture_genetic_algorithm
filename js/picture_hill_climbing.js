@@ -17,7 +17,7 @@ canvasBuffer.height = IMAGE_HEIGHT;
 var ctxBuffer = canvasBuffer.getContext('2d');
 
 img.onload = function() { ctxOrigin.drawImage(img, 0, 0); };
-img.src = '../test.jpg';
+img.src = 'test.jpg';
 solution = makeIndividual();
 
 var interval = setInterval(hillClimb, 150);
